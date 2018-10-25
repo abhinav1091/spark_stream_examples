@@ -39,6 +39,7 @@ object twitter_tweet {
     ssc.start()
     ssc.awaitTermination()
 
+
   }
 
 
