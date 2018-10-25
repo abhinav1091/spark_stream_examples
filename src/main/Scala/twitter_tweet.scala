@@ -23,7 +23,7 @@ object twitter_tweet {
 
 
 
-    //hi
+    //hi//hello
     val cb = new ConfigurationBuilder
     cb.setDebugEnabled(true).setOAuthConsumerKey(consumerKey)
       .setOAuthConsumerSecret(consumerSecret)
