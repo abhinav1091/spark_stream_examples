@@ -20,6 +20,10 @@ object twitter_tweet {
     val accessToken = "863219944300756995-HtGYFbO7fO3mrCepTmmrZQ9d3cAER0t"
     val accessTokenSecret= "rKrO88snh5uBVti509ytWpCAgZSOqTUGywsZxsGbN3sir"
 
+
+
+
+    //hi
     val cb = new ConfigurationBuilder
     cb.setDebugEnabled(true).setOAuthConsumerKey(consumerKey)
       .setOAuthConsumerSecret(consumerSecret)
