@@ -16,6 +16,7 @@ object twitter_tweet {
     val conf = new SparkConf().setAppName("NetworkWordCount").setMaster("local[2]")
     val ssc = new StreamingContext(conf, Seconds(3))
 
+
     val consumerKey= "s4Jlz5yGTBMTETPMzrWlivUlc"
     val consumerSecret= "Nnsch5M2fekJlHI7tmU6zSKudywUEyBAnrptsl1rYTxMJDSfS9"
     val accessToken = "863219944300756995-HtGYFbO7fO3mrCepTmmrZQ9d3cAER0t"
